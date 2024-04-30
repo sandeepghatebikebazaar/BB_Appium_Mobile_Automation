@@ -10,7 +10,7 @@
         <parameter name="deviceName" value="Redmi 11 prime"/>
         <parameter name="udid" value="df5a1e5e"/>
                 <parameter name="systemPort" value="8210"/>
-                <parameter name="chromeDriverPort" value="11000"/>
+                <parameter name="chromeDriverPort" value="11001"/>
 <!--&lt;!&ndash;                <parameter name="server" value="http://0.0.0.0:4723/wd/hub"/>&ndash;&gt;-->
         <classes>
             <class name="tests.LoginTests"/>

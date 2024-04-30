@@ -154,7 +154,7 @@ result.getStatus()==2: will process screen record only for Failure tests
 //    }
     @Parameters({"platformName", "deviceName", "udid", "systemPort","chromeDriverPort"})
     @BeforeTest
-    public void BeforeTest(String platformName, String deviceName, String udid, String chromeDriverPort, String systemPort) throws IOException {
+    public void BeforeTest(@Optional String platformName, @Optional String deviceName, @Optional String udid, @Optional String chromeDriverPort, @Optional String systemPort) throws IOException {
 //log.info("this is info message");
 //log.debug("this is debug");
 //log.error("this is error");
