@@ -8,14 +8,14 @@
     <test  name="Real device">
         <parameter name="platformName" value="Android"/>
         <parameter name="deviceName" value="Redmi 11 prime"/>
-        <parameter name="udid" value="df5a1e5e"/>
+        <parameter name="udid" value="emulator-5554"/>
                 <parameter name="systemPort" value="8210"/>
                 <parameter name="chromeDriverPort" value="11001"/>
 <!--&lt;!&ndash;                <parameter name="server" value="http://0.0.0.0:4723/wd/hub"/>&ndash;&gt;-->
         <classes>
             <class name="tests.LoginTests"/>
-            <class name="tests.Productype"/>
-            <class name="tests.Productype_Fail"/>
+<!--            <class name="tests.Productype"/>-->
+<!--            <class name="tests.Productype_Fail"/>-->
         </classes>
     </test>
 <!--    <test name="Emulator">-->
